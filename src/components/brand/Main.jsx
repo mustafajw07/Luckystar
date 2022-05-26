@@ -15,6 +15,7 @@ import Wicker from "../brand/companies/Wicker"
 import Godrej from "../brand/companies/Godrej"
 import Dorset from "../brand/companies/Dorset"
 import Europa from "../brand/companies/Europa"
+import Fab from "./companies/Fab";
 
 
 function Main() {
@@ -81,6 +82,10 @@ function Main() {
   }if(path === "dorset"){
     return (
     <Dorset />
+    )
+  }if(path === "fab"){
+    return (
+    <Fab />
     )
   }
 }

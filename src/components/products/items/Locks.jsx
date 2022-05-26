@@ -1,5 +1,4 @@
 import Card from "../Card";
-import casa from "../assets/locks/casa.png"
 import godrej from "../assets/locks/godrej.png"
 import europa from "../assets/locks/europa.png"
 import dorset from "../assets/locks/dorset.png"
@@ -9,8 +8,6 @@ return (
 <div className="my-4">
   <div className="row justify-content-center">
     <h3 id="product-heading">Locks</h3>
-    <Card title="Casa" 
-      img={casa} link="casa" />
     <Card title="Godrej" 
       img={godrej} link="godrej" />
    <Card title="Europa" 

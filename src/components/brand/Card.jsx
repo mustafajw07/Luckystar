@@ -1,13 +1,18 @@
-function Card() {
+function Card(props) {
   return <>
   <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3" id="card">
   <div className="imgBox">
-    <img src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png" alt="mouse corsair" className="mouse" />
+    <img src={props.img} alt="product img" className="mouse" />
   </div>
   <div className="contentBox">
-    <h3>Product Name</h3>
-    <p>Description</p>
-    <h2 className="price">200/-</h2>
+    <div>
+    <h3>{props.title}</h3>
+    </div>
+    <div>
+    <p>{props.description}</p>
+    </div>
+    <h6 className="price">{props.price}</h6>
+    <h5 className="dis">{props.dis}</h5>
   </div>
 </div>
   </>;
