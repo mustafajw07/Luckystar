@@ -8,18 +8,18 @@ function Palladium() {
         <Header />
         <div className="row justify-content-center">
           <h1 id="brand">Palladium</h1>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
+            <Card title = "" description = "" price = "MRP:- /-" dis = "Dicount :- 40%" gst = "18% - Gst Extra"/>
         </div>
         <Footer />
         </>
