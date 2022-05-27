@@ -13,6 +13,7 @@ function Card(props) {
     </div>
     <h6 className="price">{props.price}</h6>
     <h5 className="dis">{props.dis}</h5>
+    <h5 className="dis">{props.gst}</h5>
   </div>
 </div>
   </>;

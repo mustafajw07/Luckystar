@@ -14,12 +14,12 @@ function Olive() {
         <Header />
         <div className="row justify-content-center">
           <h1 id="brand">Olive</h1>
-          <Card title="Rolling shutter sliver (PVC)" description="SIZE :- 600*1400" img={pvcsliver} price="MRP:- 14500/-" dis="Less :- 35%"/>
-          <Card title="Rolling shutter black (PVC)" description="SIZE :- 600*1400" img={pvcblack} price="MRP:- 14500/-" dis="Less :- 35%"/>
-          <Card title="Rolling shutter white (PVC)" description="SIZE :- 600*1400" img={pvcwhite} price="MRP:- 14500/-" dis="Less :- 35%"/>
-          <Card title="Rolling shutter frosted (GLASS)" description="SIZE :- 600*1400" img={glassfrosted} price="MRP:- 30200/-" dis="Less :- 35%"/>
-            <Card title="Rolling shutter black (GLASS)" description="SIZE :- 600*1400" img={glassblack} price="MRP:- 30200/-" dis="Less :- 35%"/>
-            <Card title="Rolling shutter white (GLASS)" description="SIZE :- 600*1400" img={glasswhite} price="MRP:- 27900/-" dis="Less :- 35%"/>
+          <Card title="Rolling shutter sliver (PVC)" description="SIZE :- 600*1400" img={pvcsliver} price="MRP:- 14500/-" dis="Discount :- 35%" gst="18% - gst Extra"/>
+          <Card title="Rolling shutter black (PVC)" description="SIZE :- 600*1400" img={pvcblack} price="MRP:- 14500/-" dis="Discount :- 35%" gst="18% - gst Extra"/>
+          <Card title="Rolling shutter white (PVC)" description="SIZE :- 600*1400" img={pvcwhite} price="MRP:- 14500/-" dis="Discount :- 35%" gst="18% - gst Extra"/>
+          <Card title="Rolling shutter frosted (GLASS)" description="SIZE :- 600*1400" img={glassfrosted} price="MRP:- 30200/-" dis="Discount :- 35%" gst="18% - gst Extra"/>
+            <Card title="Rolling shutter black (GLASS)" description="SIZE :- 600*1400" img={glassblack} price="MRP:- 30200/-" dis="Discount :- 35%" gst="18% - gst Extra"/>
+            <Card title="Rolling shutter white (GLASS)" description="SIZE :- 600*1400" img={glasswhite} price="MRP:- 27900/-" dis="Discount :- 35%" gst="18% - gst Extra"/>
         </div>
         <Footer />
         </>

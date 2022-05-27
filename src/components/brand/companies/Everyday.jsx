@@ -15,13 +15,13 @@ function Everyday() {
     <Header />
     <div className="row justify-content-center">
       <h1 id="brand">EveryDay</h1>
-        <Card title="Tandem Pantry Pull Out Solid Base" description="Size :- 564*460*1250-1450" price="MRP:- 20033/-" img={tandem1} dis="Less :- 35%"/>
-        <Card title="Tandem Pantry Pull Out Solid Base" description="Size :- 564*460*1850*2050" price="MRP:- 23522/-" img={tandem2} dis="Less :- 35%"/>
-        <Card title="Dee Tray Corner Solid Base" description="Size :- 714*450*700" price="MRP:- 8888/-" img={dee} dis="Less :- 35%"/>
-        <Card title="Blind Corner Pull Out Solid Base" description="Size :- 664*500*700" price="MRP:- 18185/-" img={blind} dis="Less :- 35%"/>
-        <Card title="Cup and Saucer Insert for Drawer Baske" description="Size :- 128*482*75" price="MRP:- 331/-" img={cup} dis="Less :- 35%"/>
-        <Card title="Bowl Insert for Drawer Basket" description="Size :- 128*482*75" price="MRP:- 272/-" img={bowl} dis="Less :- 35%"/>
-        <Card title="Big Plate Insert for Drawer Basket" description="Size :- 160*482*130" price="MRP:- 442/-" img={plate} dis="Less :- 35%"/>
+        <Card title="Tandem Pantry Pull Out Solid Base" description="Size :- 564*460*1250-1450" price="MRP:- 20033/-" img={tandem1} dis="Discount :- 32%" gst="12% - Gst Extra"/>
+        <Card title="Tandem Pantry Pull Out Solid Base" description="Size :- 564*460*1850*2050" price="MRP:- 23522/-" img={tandem2} dis="Discount :- 32%" gst="12% - Gst Extra"/>
+        <Card title="Dee Tray Corner Solid Base" description="Size :- 714*450*700" price="MRP:- 8888/-" img={dee} dis="Discount :- 32%" gst="12% - Gst Extra"/>
+        <Card title="Blind Corner Pull Out Solid Base" description="Size :- 664*500*700" price="MRP:- 18185/-" img={blind} dis="Discount :- 32%" gst="12% - Gst Extra"/>
+        <Card title="Cup and Saucer Insert for Drawer Baske" description="Size :- 128*482*75" price="MRP:- 331/-" img={cup} dis="Discount :- 32%" gst="12% - Gst Extra"/>
+        <Card title="Bowl Insert for Drawer Basket" description="Size :- 128*482*75" price="MRP:- 272/-" img={bowl} dis="Discount :- 32%" gst="12% - Gst Extra"/>
+        <Card title="Big Plate Insert for Drawer Basket" description="Size :- 160*482*130" price="MRP:- 442/-" img={plate} dis="Discount :- 32%" gst="12% - Gst Extra"/>
     </div>
     <Footer />
     </>

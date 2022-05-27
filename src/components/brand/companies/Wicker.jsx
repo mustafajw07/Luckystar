@@ -11,12 +11,12 @@ return (
     <Header />
     <div className="row justify-content-center">
         <h1 id="brand">Wicker Baskets</h1>
-        <Card title = "Wicker basket" description = "Size :- 414*500*100" img= {w1} price="MRP:- 3690/-"/>
-        <Card title = "Wicker basket" description = "Size :- 414*500*150" img= {w2} price="MRP:- 3870/-"/>
-        <Card title = "Wicker basket" description = "Size :- 414*500*200" img= {w3} price="MRP:- 4050/-"/>
-        <Card title = "Wicker basket" description = "Size :- 564*500*100" img= {w1} price="MRP:- 4140/-"/>
-        <Card title = "Wicker basket" description = "Size :- 564*500*150" img= {w2} price="MRP:- 4320/-"/>
-        <Card title = "Wicker basket" description = "Size :- 564*500*200" img= {w3} price="MRP:- 4500/-"/>
+        <Card title = "Wicker basket" description = "Size :- 414*500*100" img= {w1} price="MRP:- 3690/-" gst="5% - Gst Extra"/>
+        <Card title = "Wicker basket" description = "Size :- 414*500*150" img= {w2} price="MRP:- 3870/-" gst="5% - Gst Extra"/>
+        <Card title = "Wicker basket" description = "Size :- 414*500*200" img= {w3} price="MRP:- 4050/-" gst="5% - Gst Extra"/>
+        <Card title = "Wicker basket" description = "Size :- 564*500*100" img= {w1} price="MRP:- 4140/-" gst="5% - Gst Extra"/>
+        <Card title = "Wicker basket" description = "Size :- 564*500*150" img= {w2} price="MRP:- 4320/-" gst="5% - Gst Extra"/>
+        <Card title = "Wicker basket" description = "Size :- 564*500*200" img= {w3} price="MRP:- 4500/-" gst="5% - Gst Extra"/>
     </div>
     <Footer />
 </>
