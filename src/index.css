@@ -576,6 +576,17 @@
    min-height: 70vh;
  }
 
+ @media screen and (min-width : 500px){
+   .background{
+     display: flex;
+     min-height: 60vh;
+   }
+  .screen{
+    width: 886px;
+    height: 420px;
+  }
+ }
+
  #container-cu {
    flex: 0 1 700px;
    margin: auto;
