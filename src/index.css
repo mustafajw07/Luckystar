@@ -735,3 +735,17 @@
      padding: 0;
    }
  }
+
+ /* Selector */
+ .selector select{
+   font-size: 20px;
+   border: 2px solid #fff;
+   border-radius: 10px;
+   background-color: #495664;
+   color: #fff;
+   text-align: center;
+   width: 175px;
+   height: 35px;
+   margin: 10px 0;
+ }
+ 
