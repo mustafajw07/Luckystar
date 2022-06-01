@@ -10,10 +10,6 @@ return (
           India. The supplier company is located in Mumbai, Maharashtra and is one of the leading sellers of listed
           products.
         </p>
-        <p>
-          Lucky Star Enterprise is listed in Trade India's list of verified sellers offering supreme quality of etc. Buy
-          in bulk from us for the best quality products and service.
-        </p>
       </div>
       <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
         <h5 className="text-uppercase text-center mb-4">Contact us</h5>

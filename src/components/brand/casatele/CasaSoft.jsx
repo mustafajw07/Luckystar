@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function CasaSoft(props) {
-    const [mrp, setMrp] = useState('200');
+    const [mrp, setMrp] = useState('260');
     const getSize = (e) => {
       const size = e.target.value;
-      const rs = 20
+      const rs = 26
       const newMrp = size*rs;
       setMrp(newMrp)
     }

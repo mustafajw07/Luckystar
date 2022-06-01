@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function CasaBlk(props) {
-    const [mrp, setMrp] = useState('125');
+    const [mrp, setMrp] = useState('135');
     const getSize = (e) => {
       const size = e.target.value;
-      const rs = 12.5
+      const rs = 13.5
       const newMrp = size*rs;
       setMrp(newMrp)
     }

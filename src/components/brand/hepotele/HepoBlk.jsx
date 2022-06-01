@@ -1,12 +1,24 @@
 import { useState } from "react";
 
 function HepoBlk(props) {
-    const [mrp, setMrp] = useState('299');
+    const [mrp, setMrp] = useState('369');
     const getSize = (e) => {
       const size = e.target.value;
-      const rs = 12.5
-      const newMrp = size*rs;
-      setMrp(newMrp)
+      if(size === "10"){
+        setMrp(369)
+      }if(size === "12"){
+        setMrp(409)
+      }if(size === "14"){
+        setMrp(449)
+      }if(size === "16"){
+        setMrp(489)
+      }if(size === "18"){
+        setMrp(549)
+      }if(size === "20"){
+        setMrp(599)
+      }if(size === "22"){
+        setMrp(669)
+      }
     }
     
   return (

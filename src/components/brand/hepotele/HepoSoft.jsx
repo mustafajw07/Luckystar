@@ -1,13 +1,23 @@
 import { useState } from "react";
 
 function HepoSoft(props) {
-    const [mrp, setMrp] = useState('299');
-    const getSize = (e) => {
-      const size = e.target.value;
-      const rs = 12.5
-      const newMrp = size*rs;
-      setMrp(newMrp)
+  const [mrp, setMrp] = useState('369');
+  const getSize = (e) => {
+    const size = e.target.value;
+    if(size === "12"){
+      setMrp(759)
+    }if(size === "14"){
+      setMrp(819)
+    }if(size === "16"){
+      setMrp(879)
+    }if(size === "18"){
+      setMrp(939)
+    }if(size === "20"){
+      setMrp(999)
+    }if(size === "22"){
+      setMrp(1149)
     }
+  }
     
   return (
       <>

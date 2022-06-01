@@ -17,9 +17,9 @@ return (
     <Card title="l hinges" description="4*3/4*6mm" price="MRP:- 208/-" gst="18% - Gst Extra" img = {lh}/>
     <Card title="l hinges" description="4*3/4*12mm" price="MRP:- 221/-" gst="18% - Gst Extra" img = {lh}/>
     <Card title="l hinges" description="4*3/4*19mm" price="MRP:- 243/-" gst="18% - Gst Extra" img = {lh}/>
-    <Card title="l hinges" description="4*3/8*6mm" price="MRP:- /-" gst="18% - Gst Extra" img = {lh}/>
-    <Card title="l hinges" description="4*3/8*12mm" price="MRP:- /-" gst="18% - Gst Extra" img = {lh}/>
-    <Card title="l hinges" description="4*3/8*19mm" price="MRP:- /-" gst="18% - Gst Extra" img = {lh}/>
+    <Card title="l hinges" description="4*3/8*6mm" price="MRP:- 153/-" gst="18% - Gst Extra" img = {lh}/>
+    <Card title="l hinges" description="4*3/8*12mm" price="MRP:- 173/-" gst="18% - Gst Extra" img = {lh}/>
+    <Card title="l hinges" description="4*3/8*19mm" price="MRP:- 177/-" gst="18% - Gst Extra" img = {lh}/>
     <Card title="l hinges" description="3*1/2*6mm" price="MRP:- 128/-" gst="18% - Gst Extra" img = {lh}/>
     <Card title="l hinges" description="3*1/2*12mm" price="MRP:- 153/-" gst="18% - Gst Extra" img = {lh}/>
     <Card title="l hinges" description="3*1/2*19mm" price="MRP:- 165/-" gst="18% - Gst Extra" img = {lh}/>
