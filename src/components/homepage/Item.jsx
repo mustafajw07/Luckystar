@@ -3,7 +3,7 @@ return (
 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
   <div className="card-grid-view">
     <div className="card-body">
-      <img src={props.img} className="card-img" alt="item image" />
+      <img src={props.img} className="card-img" alt="item" />
       <div className="text-center pt-2 card-content">
         <h5>{props.title}</h5>
         <p className="text-muted">{props.description}</p>

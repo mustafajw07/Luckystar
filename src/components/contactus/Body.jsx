@@ -1,6 +1,14 @@
+import { useForm } from '@formspree/react';
+
 function Body() {
+  const API = process.env.REACT_APP_EMAIL_KEY 
+  const [state, handleSubmit] = useForm(API);
+  if (state.succeeded) {
+	  return <Body />
+  }
 return (
 <>
+<form onSubmit={handleSubmit}>
 <div className="py-5 my-5 background">
   <div id="container-cu">
     <div className="screen">
@@ -14,20 +22,19 @@ return (
         <div className="screen-body-item">
           <div className="app-form">
             <div className="app-form-group">
-              <input className="app-form-control" placeholder="NAME" />
+              <input className="app-form-control" placeholder="NAME" name='name'/>
             </div>
             <div className="app-form-group">
-              <input className="app-form-control" placeholder="EMAIL" />
+              <input className="app-form-control" placeholder="EMAIL" name='email' required = {true}/>
             </div>
             <div className="app-form-group">
-              <input className="app-form-control" placeholder="CONTACT NO" />
+              <input className="app-form-control" placeholder="CONTACT NO" name='number' required = {true}/>
             </div>
             <div className="app-form-group message">
-              <input className="app-form-control" placeholder="MESSAGE" />
+              <input className="app-form-control" placeholder="MESSAGE" name='messeage' required = {true}/>
             </div>
             <div className="app-form-group buttons">
-              <button className="app-form-button">CANCEL</button>
-              <button className="app-form-button">SEND</button>
+              <button type='submit' disabled={state.submitting} className="app-form-button">SEND</button>
             </div>
           </div>
         </div>
@@ -35,6 +42,7 @@ return (
     </div>
   </div>
 </div>
+</form>
 </>
 );
 }
