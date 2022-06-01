@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Nunito:wght@200&family=Poppins:wght@200&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
  /* Body */
  body {
    background-color: #F7F7F7;
@@ -59,10 +59,10 @@
  #product {
    border-top: 4px solid #303841;
  }
-
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
  .card-grid-view {
-   font-size: 25px;
-  font-family: 'Bebas Neue', cursive;
+   font-size: 20px;
+   font-family: 'Archivo Narrow', sans-serif;
    display: flex;
    justify-content: center;
    margin: 0;
@@ -71,7 +71,7 @@
  
  #title{
    margin-top: 15px;
-   font-size: 30px;
+   font-size: 23px;
  }
  .card-body img {
    height: 210px;
@@ -107,7 +107,7 @@
  }
 
  .btn-three {
-   font-size: 20px;
+   font-size: 17px;
    color: #393E46;
    transition: all 0.5s;
    position: relative;
@@ -440,7 +440,7 @@
 
  #categories-heading {
    font-family: 'Catamaran', sans-serif;
-   font-size: 50px;
+   font-size: 45px;
    color: #303841;
    text-align: center;
    text-decoration: underline;
@@ -718,20 +718,20 @@
 
  @media screen and (max-width : 1060px) {
   .card-grid-view{
-    font-size: 30px;
+    font-size: 27px;
   }
-  x#title{
-    font-size: 30px;
+  #title{
+    font-size: 33px;
   }
  }
 
  @media screen and (max-width : 1060px) {
   .btn-three{
-    font-size: 30px;
+    font-size: 24px;
   }
  }
 
- @media only screen and (max-width : 1060px {
+ @media only screen and (max-width : 1060px) {
   .styled-input {
     width: 100%;
   }
