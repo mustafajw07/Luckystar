@@ -13,7 +13,7 @@ return (
 	<form onSubmit={handleSubmit}>
 <div id="form" className="container">
 	<div className="row">
-			<h1 className="text-center">Get in touch</h1>
+			<h1 className="text-center getintouch">Get in touch</h1>
 	</div>
 	<div className="row input-container">
 			<div className="col-xs-12">

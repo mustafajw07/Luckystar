@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Nunito:wght@200&family=Poppins:wght@200&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
  /* Body */
  body {
    background-color: #F7F7F7;
@@ -13,18 +13,7 @@
  ul {
    text-align: center;
  }
- @media(max-width : 1060px){
-  #navbarSupportedContent li a {
-    font-size: 25px;
-  }
-  #logo {
-    max-width: 300px;
-  }
-  #nav-toggle-button{
-    width: 55px;
-    height: 45px;
-  }
- }
+ 
  #navbarSupportedContent li a {
    display: inline-block;
    position: relative;
@@ -72,16 +61,22 @@
  }
 
  .card-grid-view {
-   font-family: 'Nunito', sans-serif;
+   font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
    display: flex;
    justify-content: center;
    margin: 0;
    padding: 0;
  }
-
+ 
+ #title{
+   margin-top: 15px;
+   font-size: 30px;
+ }
  .card-body img {
    height: 210px;
  }
+
 
  .card-body {
    background-color: #F8F8F8;
@@ -112,10 +107,12 @@
  }
 
  .btn-three {
+   font-size: 20px;
    color: #393E46;
    transition: all 0.5s;
    position: relative;
  }
+ 
 
  .btn-three::before {
    content: '';
@@ -182,11 +179,7 @@
    border-radius: 4px;
  }
 
- @media only screen and (max-width: 768px) {
-   .styled-input {
-     width: 100%;
-   }
- }
+ 
 
  .styled-input label {
    color: #999;
@@ -260,13 +253,7 @@
      0 1px 1px 0 rgba(0, 0, 0, 0.09);
  }
 
- @media (max-width: 768px) {
-   .submit-btn {
-     width: 100%;
-     float: none;
-     text-align: center;
-   }
- }
+ 
 
  input[type=checkbox]+label {
    color: #ccc;
@@ -315,13 +302,19 @@
    width: 175px;
    text-align: center;
  }
-
+/* Get in touch */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+.getintouch{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+}
  /* Footer */
  footer {
    font-family: 'Poppins', sans-serif;
    background-color: #495664;
    border-top: 4px solid #303841;
    border-bottom: 4px solid #303841;
+   font-weight: bolder;
  }
 
  /* Our Products Page */
@@ -576,17 +569,7 @@
    min-height: 70vh;
  }
 
- @media screen and (min-width : 500px){
-   .background{
-     display: flex;
-     min-height: 60vh;
-   }
-  .screen{
-    width: 886px;
-    height: 420px;
-  }
- }
-
+ 
  #container-cu {
    flex: 0 1 700px;
    margin: auto;
@@ -672,7 +655,6 @@
    border-bottom: 1px solid #666;
    color: #ddd;
    font-size: 14px;
-   text-transform: uppercase;
    outline: none;
    transition: border-color .2s;
  }
@@ -704,37 +686,7 @@
    margin: 0 5px;
  }
 
- @media screen and (max-width: 520px) {
-   .screen-body {
-     flex-direction: column;
-   }
-
-   .screen-body-item.left {
-     margin-bottom: 30px;
-   }
-
-   .app-title {
-     flex-direction: row;
-   }
-
-   .app-title span {
-     margin-right: 12px;
-   }
-
-   .app-title:after {
-     display: none;
-   }
- }
-
- @media screen and (max-width: 600px) {
-   .screen-body {
-     padding: 40px;
-   }
-
-   .screen-body-item {
-     padding: 0;
-   }
- }
+ 
 
  /* Selector */
  .selector select{
@@ -751,3 +703,94 @@
  
 
  
+ @media(max-width : 1060px){
+  #navbarSupportedContent li a {
+    font-size: 25px;
+  }
+  #logo {
+    max-width: 300px;
+  }
+  #nav-toggle-button{
+    width: 55px;
+    height: 45px;
+  }
+ }
+
+ @media screen and (max-width : 1060px) {
+  .card-grid-view{
+    font-size: 30px;
+  }
+  x#title{
+    font-size: 30px;
+  }
+ }
+
+ @media screen and (max-width : 1060px) {
+  .btn-three{
+    font-size: 30px;
+  }
+ }
+
+ @media only screen and (max-width : 1060px {
+  .styled-input {
+    width: 100%;
+  }
+}
+
+@media (max-width : 1060px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width : 1060px) {
+  #categories-heading{
+   font-size: 65px;
+  }
+}
+
+
+@media screen and (max-width : 1060px){
+  .background{
+    display: flex;
+    min-height: 60vh;
+  }
+ .screen{
+   width: 886px;
+   height: 420px;
+ }
+}
+
+@media screen and (max-width : 1060px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width : 1060px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
